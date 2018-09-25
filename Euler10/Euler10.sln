@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler10", "Euler10\Euler10.csproj", "{FCC6DD58-6F2C-4D0E-9B2F-B566DF191FF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC6DD58-6F2C-4D0E-9B2F-B566DF191FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC6DD58-6F2C-4D0E-9B2F-B566DF191FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC6DD58-6F2C-4D0E-9B2F-B566DF191FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC6DD58-6F2C-4D0E-9B2F-B566DF191FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
