@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Euler10
 {
@@ -7,11 +8,11 @@ namespace Euler10
     {
         static void Main(string[] args)
         {
-            List<Int64> primeList = new List<Int64>();
+            var primeList = new List<long>();
             
-            Int64 limit = 2000000;
+            long limit = 2000000;
 
-            for (Int64 i = 2; i < limit; i++)
+            for (var i = 2; i < limit; i++)
             {
                 if (IsPrime(i)) primeList.Add(i);
             }
@@ -19,16 +20,9 @@ namespace Euler10
             Console.WriteLine(GetSum(primeList));
         }
 
-        private static Int64 GetSum(List<Int64> list)
+        private static long GetSum(IEnumerable<long> list)
         {
-            Int64 sum = 0;
-            
-            foreach (var n in list)
-            {
-                sum += n;
-            }
-
-            return sum;
+            return list.Sum();
         }
 
         private static bool IsPrime(Int64 number)
